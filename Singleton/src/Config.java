@@ -1,3 +1,9 @@
+/**
+ * Autor: Emilian OSsowski
+ *
+ * Plik zawiera konfiguracje, konstruktor jest prywatny dlatego nie można go wywołać
+ * mozna tylko odebrać dane z singletona i istnieć tylko jedna instancja tej klasy**/
+
 public class Config {
 
 

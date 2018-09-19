@@ -1,9 +1,20 @@
 
+
 import org.junit.Before;
-import org.junit.Before;
+
 
 import static org.junit.Assert.*;
-
+/**
+ * Autor : Emilian Ossowski
+ *
+ * Testy jednostkowe utworzone dla implementacji wzorca projektowego Builder
+ *
+ * Utworzone testy jednostkowe
+ *
+ * testNull - sprawdzaczy jeżeli nie stworzymy obiektu to dostaniemy null w metodzie getRower().
+ * testMistake - sprawdza czy builder budujący inny obiekt zwraca inny obiekt
+ * testGood - sprawdza czy builder zwraca dobry obiekt
+ * **/
 
 public class Test {
     Builder builder = new Gretta();
@@ -24,7 +35,7 @@ public class Test {
 
     @org.junit.Test
     public void testMistake(){
-        assertFalse(builder2.getRower()== gretta);
+        assertTrue(builder2.getRower()== gretta);
     }
 
     @org.junit.Test

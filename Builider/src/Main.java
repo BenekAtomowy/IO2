@@ -1,3 +1,16 @@
+/**
+ * Autor Emilian Ossowski
+ * Implemetacja wzorca projektowego Builder
+ * Inżynieria oprogramowania
+ *
+ * Obiekt Director zarządza obiektami builder
+ * Builder tworzy zestaw zdefiniowany obiekt
+ * Powstałe obiekty są wyświetlane w konsoli
+ *
+ * **/
+
+
+
 public class Main {
     public static void main(String[] args) {
         Director szef = new Director();

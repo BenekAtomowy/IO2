@@ -1,3 +1,8 @@
+/**
+ * Autor : Emilian Ossowski
+ *
+ * Budowniczy - buduje zdefiniowany przez direcotra obiekt**/
+
 abstract public class Builder {
     protected Rower rower;
 

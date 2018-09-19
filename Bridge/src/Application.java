@@ -1,9 +1,18 @@
+/**
+ * Autor : Emilian Ossowski
+ *
+ * Klasa abstrakcyjna która jest dziedziczona przez klase RecyclerApplication
+ *
+ * **/
+
+
+
 public abstract class Application {
     protected Display display;
     protected String menu;
     protected String permissions;
 
-    public Application(){};
+    public Application(){}
 
     public Application(String menu, String permissions, Display display){
         this.menu = menu;

@@ -1,3 +1,8 @@
+/**
+ * Autor : Emilian Ossowski
+ *
+ * klasa nadrzedna do tworzenia podklas Excelo i Gretta**/
+
 public class Rower {
     private String rama;
     private String kierownica;

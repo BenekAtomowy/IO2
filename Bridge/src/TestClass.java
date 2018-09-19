@@ -1,11 +1,19 @@
 
+/**
+ * Autor : Emilian Ossowski
+ *
+ * Testy jednostkowe które sprawdzające klasę ClientModule i Producer Module, czy przypisanie odpowiedniej klasy powoduje wyświetlenie jej winterfejsie
+ *
+ * **/
 
 import org.junit.Before;
+import org.junit.Test;
+
 
 import static org.junit.Assert.*;
 
 
-public class Test {
+public class TestClass {
     private RecyclerApplication app;
     ClientModule cm;
 
@@ -14,27 +22,27 @@ public class Test {
         cm = new ClientModule();
     }
 
-    @org.junit.Test
+    @Test
     public void testNewObject(){
         app = new RecyclerApplication("","",new ClientModule());
         assertFalse(app.display == cm);
     }
 
-    @org.junit.Test
+    @Test
     public void testcm(){
         app = new RecyclerApplication("","",cm);
         assertTrue(app.display == cm);
     }
 
 
-    @org.junit.Test
+    @Test
     public void testNull(){
         app = new RecyclerApplication("","",null);
-        assertFalse(app.display == cm);
+        assertTrue(app.display == null);
     }
 
 
-    @org.junit.Test
+    @Test
     public void testProducerModule(){
         app = new RecyclerApplication("","",new ProducerModule());
         assertFalse(app.display == cm);

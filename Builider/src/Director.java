@@ -1,3 +1,9 @@
+
+/**
+ * Autor : Emilian Ossowski
+ *
+ * Budowniczy - zleca zadanie budowniczemu*/
+
 public class Director {
     private Builder builder;
 

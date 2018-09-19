@@ -1,3 +1,8 @@
+/**
+ * Autor : Emilian Ossowski
+ *
+ * klasa reprezentujaca model roweru**/
+
 public class Excelo extends Builder{
 
     public void buildRama(){
